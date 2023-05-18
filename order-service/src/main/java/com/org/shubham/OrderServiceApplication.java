@@ -4,7 +4,7 @@ package com.org.shubham;
  * Hello world!
  *
  */
-public class NotificationServiceApplication
+public class OrderServiceApplication
 {
     public static void main( String[] args )
     {
