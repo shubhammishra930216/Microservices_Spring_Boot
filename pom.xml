@@ -16,8 +16,8 @@
 	<description>Microservices Project From Scatch</description>
 	<modules>
 		<module>order-service</module>
-		<module>inventory-service</module>
 		<module>product-service</module>
+		<module>inventory-service</module>
 		<module>notification-service</module>
 	</modules>
 	<properties>
@@ -35,6 +35,17 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>org.testcontainers</groupId>
+				<artifactId>testcontainers-bom</artifactId>
+				<version>1.18.1</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
 
 	<build>
 		<plugins>
