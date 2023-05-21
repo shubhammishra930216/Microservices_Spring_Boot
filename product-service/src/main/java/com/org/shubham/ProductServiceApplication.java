@@ -5,10 +5,6 @@ import io.swagger.v3.oas.annotations.info.Info;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-/**
- * Hello world!
- *
- */
 @SpringBootApplication
 @OpenAPIDefinition(info = @Info(title = "Product Service",
                    version="0.01",
