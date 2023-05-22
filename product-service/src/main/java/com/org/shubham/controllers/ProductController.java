@@ -5,7 +5,7 @@ import com.org.shubham.dtos.ProductRequestDto;
 import com.org.shubham.dtos.ProductResponseDto;
 import com.org.shubham.entities.Product;
 import com.org.shubham.payload.ApiResponse;
-import com.org.shubham.services.impl.ProductServiceImpl;
+import com.org.shubham.services.ProductServiceImpl;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

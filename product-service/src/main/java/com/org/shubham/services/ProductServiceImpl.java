@@ -1,4 +1,4 @@
-package com.org.shubham.services.impl;
+package com.org.shubham.services;
 
 import com.org.shubham.dtos.ProductRequestDto;
 import com.org.shubham.dtos.ProductResponseDto;
