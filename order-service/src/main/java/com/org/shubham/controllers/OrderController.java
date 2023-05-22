@@ -26,7 +26,7 @@ public class OrderController {
                 ApiResponse("Order Placed Successfully with order number:"+orderNumber,true), HttpStatus.CREATED);
     }
 
-    @GetMapping("/orders/{orderNumber}/")
+    @GetMapping("/orders/{orderNumber}")
     public ResponseEntity<OrderResponseDto> getAllOrders(@PathVariable(name = "orderNumber") String orderNumber){
         OrderResponseDto orderResponseDto = orderService.getAllOrders(orderNumber);
         return new ResponseEntity<>(orderResponseDto,HttpStatus.FOUND);
